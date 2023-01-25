@@ -1,0 +1,83 @@
+/***********************************************************************************
+* FILE DESCRIPTION
+* --------------------------------------------------------------------------------*/
+/** 	\file  IntCtrl.c
+*      \brief  Nested Vector Interrupt Controller Driver
+*
+*    \details  The Driver Configure ALL MCU Interrupts Priority into groups and subgroups
+*	       Enable NVIC Interrupt Gate for Peripherals
+*
+***********************************************************************************/
+
+/***********************************************************************************
+*  INCLUDES
+***********************************************************************************/
+#inclue "Std_Types.h"
+#include "IntCtrl.h"
+#include "Mcu_Hw.h"
+
+/***********************************************************************************
+*  LOCAL MACROS CONSTANT\FUNCTION
+***********************************************************************************/
+
+/***********************************************************************************
+*  LOCAL DATA
+***********************************************************************************/
+
+/***********************************************************************************
+*  GLOBAL DATA
+***********************************************************************************/
+
+/***********************************************************************************
+*  LOCAL FUNCTION PROTOTYPES
+***********************************************************************************/
+
+/***********************************************************************************
+*  LOCAL FUNCTIONS
+***********************************************************************************/
+
+/***********************************************************************************
+*  GLOBAL FUNCTIONS
+***********************************************************************************/
+
+
+/***********************************************************************************
+* \Syntax	   : void IntCtrl_Init(void)
+* \Description	   : initialize Nvic\SCB Module by parsing the Configuration
+		     into Nvic\SCB registers
+*
+* \Sync\Async	   : Synchronous 
+* \Reentrancy	   : Non Reentrant
+* \Parameters (in) : None
+* \Parameters (out): None
+* \Return value:   : None
+***********************************************************************************/
+
+/***********************************************************************************
+* \Syntax	   : void IntCtrl_Init(void)
+* \Description	   : initialize Nvic\SCB Module by parsing the Configuration
+		     into Nvic\SCB registers
+*
+* \Sync\Async	   : Synchronous 
+* \Reentrancy	   : Non Reentrant
+* \Parameters (in) : None
+* \Parameters (out): None
+* \Return value:   : None
+***********************************************************************************/
+void IntCtrl_init(void)
+{
+	
+	/* TODO : Configure Grouping\SubGrouping system in APINT register in SCB*/
+	
+
+	/* TODO : Assign Group\Subgroup priority in NVIC_PRIx Nvic and SCB_SYSPRIx Registers*/
+
+
+	/* TODO : Enable\Disable based on user configuration in NVIC_ENx and SCB_sys registers*/
+
+	
+}
+
+/***********************************************************************************
+*  END OF FILE: IntCtrl.c
+***********************************************************************************/
